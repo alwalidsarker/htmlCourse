@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins";
+        background-color: #121212;
+        color: #fff;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>form is here</h1>
+    <form action="">
+      <div>
+        <label for="username">username</label>
+        <input type="text" id="username" />
+      </div>
+      <div>
+        <label for="usermail">usermail</label>
+        <input type="email" id="usermail" />
+      </div>
+      <div>
+        <label for="userpass">userpass</label>
+        <input type="password" id="userpass" />
+      </div>
+      <div>
+        <label for="number">numebr</label>
+        <input type="number" id="number" max="5" min="1" value="" />
+        <!-- i cann't go up from 5 by clicking -->
+      </div>
+      <div>
+        <label for="gender">gender</label>
+        <input type="radio" value="male" name="gender" /> male
+        <input type="radio" value="female" name="gender" /> female
+        <!-- i cann't go up from 5 by clicking -->
+      </div>
+      <div>
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" value="male" name="" /> male
+        <input type="checkbox" value="female" name="" /> female
+        <!-- i cann't go up from 5 by clicking -->
+      </div>
+      <div>
+        <label for="country">fav country</label>
+        <select name="" id="">
+          <option value="usa">Usa</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="canada">Canada</option>
+        </select>
+      </div>
+      <div>
+        <label for="country">select a country</label>
+        <input type="text" id="country" list="countries" />
+        <datalist id="countries">
+          <option value="usa"></option>
+          <option value="bangladesh"></option>
+          <option value="canada"></option>
+        </datalist>
+      </div>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <div>
+        <label for="file">select file</label>
+        <input
+          type="file"
+          name=""
+          id="file"
+          accept=".jpeg"
+          required
+          autocomplete="off"
+          readonly
+        />
+      </div>
+      <input type="range" name="" id="" min="0" max="100" value="20" />
+      <br />
+      <input type="url" name="" id="" />
+      <br />
+      <input type="search" />
+      <fieldset>
+        <legend>personal info</legend>
+        <div>
+          <label for="gender">gender</label>
+          <input type="radio" value="male" name="gender" /> male
+          <input type="radio" value="female" name="gender" /> female
+          <!-- i cann't go up from 5 by clicking -->
+        </div>
+        <div>
+          <label for="checkbox">checkbox</label>
+          <input type="checkbox" value="male" name="" /> male
+          <input type="checkbox" value="female" name="" /> female
+          <!-- i cann't go up from 5 by clicking -->
+        </div>
+      </fieldset>
+      <input type="submit" value="submit" />
+      <!-- <button type="submit">submit form</button> -->
+    </form>
+  </body>
+</html>

@@ -49,3 +49,40 @@ we must use "" if there is more than 1 attribute
 
 <img src="" loading="lazy" alt="">  
 if you scroll the page and reached the img section which has 'lazy' attribute it doesn't take space
+
+to wirte something with image :   
+<figure>
+    <img width="500" src="/orange.jpeg" loading="lazy" alt="">
+    <figcaption>here is an orangef</figcaption>
+</figure>!
+
+bu this we can directly define this : 
+  <ol type="a" start="2">
+    <li>walid</li>
+    <li>walid</li>
+    <li>walid</li>
+  </ol>
+  but it wil not work in <ul>
+
+we can copy a website or a yt video or a map using iframe tag :
+<iframe src='' frameborder=''></iframe>
+
+we generally use "radio" to select only one thing among many (have to use name='' must and have to give the same nameVal)
+we generally use "check" to select many things among many
+
+if i put a data in here : ( it will be added automatically)
+<div>
+ <label for="country">select a country</label>
+ <input type="text" id="country" list="countries" />
+ <datalist id="countries">
+    <option value="usa"></option>
+    <option value="bangladesh"></option>
+    <option value="canada"></option>
+  </datalist>
+</div>
+
+here :
+<input type="file" name="" id="file" accept=".jpeg" required autocomplete="off" readonly disable/>
+required means we must fill it;
+autocomplete off means it will not be sugessting us anymore;
+readonly mainly freezes the 'value'

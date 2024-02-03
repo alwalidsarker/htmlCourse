@@ -4,12 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body{
+      font-size: 20px; 
+      font-family: sans-serif;
+    }
+    tr,td,th{
+      border: 1px solid black;
+      padding: 5px 8px;
+    }
+    table{
+      text-align: center; border: 1px solid black; border-collapse: collapse;
+    }
+  </style>
 </head>
 <body>
-  <a href="/goose.jpeg" download target="_blank" title="white goose">goose</a>
-  <a href="mailto:whatwas555@gmail.com">email walid sarker</a>
-  <a href="tel:01713870758">call walid sarker</a>
-  <img src="" loading="lazy" alt=""> 
-  <!-- &lt; it is html entities -->
+  <a href="/goose.jpeg" download target="_blank" title="white goose">goose</a> <br>
+  <a href="mailto:whatwas555@gmail.com">email walid sarker</a> <br>
+  <a href="tel:01713870758">call walid sarker</a><br>
+  <hr>
+  <figure>
+    <img width="200" src="/sun.jpeg" loading="lazy" alt="">
+    <figcaption>here is an orangef</figcaption>
+  </figure>
+  <hr>
+  <!-- project -->
+  <ul>
+    <li>Fruit</li>
+    <ol>
+      <li>banana</li>
+      <li>apple</li>
+      <ul style="list-style: square;">
+        <li>red</li>
+        <li>green</li>
+      </ul>
+    </ol>
+    <li>Vegetables</li>
+    <li>Meats</li>
+  </ul>
+  <hr>
+  <!-- prject ended -->
+  <table>
+    <thead>
+      <tr>
+        <th>username</th>
+        <th>password</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>walid</td>
+      <td>19833</td>
+    </tr>
+    <tr>
+      <td>sijan</td>
+      <td>88484</td>
+    </tr>
+    <tfoot>
+      <tr>
+        <td colspan="2">count</td>
+      </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <!-- project -->
+  <table>
+    <thead>
+      <tr>
+        <th colspan="7">time table</th>
+      </tr>
+    </thead>
+    <tr>
+      <th rowspan="7" rowspan="1">hours</th>
+      <th>mon</th>
+      <th>mon</th>
+      <th>mon</th>
+      <th>mon</th>
+      <th>mon</th>
+      <th>mon</th>
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+    </tr>
+    <tr>
+      <td>science</td>
+      <td>science</td>
+      <td>science</td>
+      <td>science</td>
+      <td>science</td>
+      <td>science</td>
+    </tr>
+    <tr>
+      <th colspan="6">lunch</th>
+    </tr>
+    <tr>
+      <td>draw</td>
+      <td>draw</td>
+      <td>draw</td>
+      <td>draw</td>
+      <td>draw</td>
+      <td rowspan="2">games</td>
+    </tr>
+    <tr>
+      <td>music</td>
+      <td>music</td>
+      <td>music</td>
+      <td>music</td>
+      <td>music</td>
+    </tr>
+  </table>
+  <!-- project end -->
+  <hr>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Rs_rAxEsAvI?si=1bFtbaKVHDRDbz-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <br>
+  <iframe width="500" height="700" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+  <br>
+  <audio src="/lovemeback.mp3" type='audio/mp3' controls></audio>
+  <br>
+  <video width="500" src="/music.mp4" controls poster="/sun.jpeg"></video>
+  <!-- here poster means thumbnail in the video -->
 </body>
 </html>

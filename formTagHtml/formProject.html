@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #212121;
+        font-family: "Poppins";
+      }
+      #form {
+        height: 900px;
+        width: 700px;
+        color: #fff;
+        background-color: #313131;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      fieldset {
+        padding: 0.5rem 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="form">
+      <fieldset>
+        <legend>Personal Informations</legend>
+        <form action="">
+          <div>
+            <label for="username">Username : </label>
+            <input
+              type="text"
+              id="username"
+              placeholder="enter your name"
+              value=""
+            />
+          </div>
+          <div>
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              id="password"
+              placeholder="enter your password"
+              value=""
+            />
+          </div>
+          <div>
+            <label for="username">Date Of Birth : </label>
+            <input
+              type="date"
+              id="username"
+              placeholder="enter your date of birth"
+              value=""
+            />
+          </div>
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" />
+          </div>
+          <div>
+            <label for="country">Country :</label>
+            <select id="country">
+              <option value="bangladesh">Bangladesh</option>
+              <option value="india">India</option>
+              <option value="germnay">Germnay</option>
+              <option value="america">America</option>
+            </select>
+          </div>
+          <div>
+            <label for="favfood">favFood : </label>
+            <br />
+            <label for="beef">Beef</label>
+            <input type="checkbox" name="" id="beef" /> <br />
+            <label for="mutton">Mutton</label>
+            <input type="checkbox" name="" id="mutton" /> <br />
+            <label for="pizza">Pizza</label>
+            <input type="checkbox" name="" id="pizza" />
+          </div>
+          <input type="submit" value="Submit" />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
